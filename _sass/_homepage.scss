@@ -1,0 +1,24 @@
+// hero banner
+
+.lady-loves-banner img {
+    width: 100%;
+    
+}
+.lady-loves-banner {
+    background-size: 100%;
+    background-position: center;
+    height: 400px ;
+    background-repeat: no-repeat;
+    .lady-loves-banner-1 {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg');
+    }
+    .lady-loves-banner-2 {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/hero-banner/Mom-gadgets-including-tech.jpeg');
+    }
+    .lady-loves-banner-3 {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/hero-banner/Mom-multitasking-with-baby-gear.jpeg');
+    }
+    .lady-loves-banner-4 {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/hero-banner/Mom-relaxing-while-using-wearable-pump.jpeg');
+    }
+}
