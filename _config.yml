@@ -66,7 +66,7 @@ kramdown:
 # adsense-data-ad-client: "ca-pub-3412143450191416"
 # adsense-data-ad-slot: "1363087678"
 
-# remove caching
+# remove cach
 BUNDLE_PATH: .bundle
 BUNDLE_DISABLE_SHARED_GEMS: "1"
 
