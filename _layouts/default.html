@@ -66,25 +66,27 @@ ga('send', 'pageview');
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
-
+                {% include search-lunr.html %}
                 {% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                <a class="nav-link" href="/"> Home</a>
                 </li>
-
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                    <a class="nav-link" href="about">About Us</a>
                 </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                <li class="nav-item dropdown pr-3 pl-2 pt-2">
+                    <a href="/categories" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/categories#Wearable-Tech">Wearable Tech</a></li>
+                      <li><a href="/categories#Product-Reviews">Product Reviews</a></li>
+                      <li><a href="/categories#Mom-Life-Tips">Mom Life Tips</a></li>
+                      <li><a href="/categories#diy-and-hacks">DIY & Hacks</a></li>
+                    </ul>
                 </li>
-
-                {% include search-lunr.html %}
-
+                <li class="nav-item pt-2"> <a href="" class="lady-loves-subscribe-header">Subscribe</a></li>
             </ul>
 
         <!-- End Menu -->
@@ -99,6 +101,27 @@ ga('send', 'pageview');
 <div class="site-content">
 
 {% if page.url == "/" %}
+<style>
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    /* text-shadow: -1px -1px 0 #f6751f, 1px -1px 0 #f6751f, -1px 1px 0 #f6751f, 1px 1px 0 #f6751f; */
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+.site-content {
+    margin-top: 0 !important;
+}
+.mediumnavigation {
+    background: transparent;
+}
+.dropdown-toggle {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+</style>
     <!-- Hero Carousel
     ================================================== -->
     <div class="lady-loves-banner">
@@ -150,7 +173,8 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <a href=""><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"></a>
+		<span> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -197,7 +221,7 @@ ga('send', 'pageview');
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+                <a target="_blank" href="/">Lady Loves</a>
             </div>
         </div>
     </div>

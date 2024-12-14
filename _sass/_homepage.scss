@@ -55,3 +55,21 @@
         background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero-banner/Mom-relaxing-while-using-wearable-pump.jpeg');
     }
 }
+
+.alertbar {
+    img {
+        width: 55%;
+        display: block;
+        margin: 0 auto 20px;
+    }
+}
+.lady-loves-subscribe-header {
+    padding: 7px 12px;
+    border-radius: 20px;
+    background-color: #04c06e;
+    border: 2px solid #059858;
+    color: #fff !important;
+}
+.lady-loves-subscribe-header:hover {
+    background-color: #42b281;
+}
