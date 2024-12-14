@@ -4,21 +4,54 @@
     width: 100%;
     
 }
+.lady-loves-banner-each {
+    height: 450px !important;
+    background-size: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    .lady-loves-banner-each-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        p {
+            font-size: 30px;
+            color: #fff;
+            max-width: 400px;
+        }
+        a {
+            border: 2px solid #038252;
+            background-color: rgba(3, 130, 81, 1);
+            padding: 6px 15px;
+            border-radius: 20px;
+            color: #fff;
+            box-shadow: 0 4px 16px #aaa;
+        }
+        a:hover {
+            box-shadow: 0 4px 24px #aaa;
+            background-color: rgba(3, 130, 81, 0.7);
+        }
+        a:visited, a:active {
+            box-shadow: 0 4px 16px #aaa;
+            background-color: rgba(3, 130, 81, 1);
+        }
+    }
+}
+
 .lady-loves-banner {
-    background-size: 100%;
-    background-position: center;
-    height: 400px ;
-    background-repeat: no-repeat;
+    height: 500px;
     .lady-loves-banner-1 {
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg');
     }
     .lady-loves-banner-2 {
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/images/hero-banner/Mom-gadgets-including-tech.jpeg');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero-banner/Mom-gadgets-including-tech.jpeg');
     }
     .lady-loves-banner-3 {
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/images/hero-banner/Mom-multitasking-with-baby-gear.jpeg');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero-banner/Mom-multitasking-with-baby-gear.jpeg');
     }
     .lady-loves-banner-4 {
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('/images/hero-banner/Mom-relaxing-while-using-wearable-pump.jpeg');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero-banner/Mom-relaxing-while-using-wearable-pump.jpeg');
     }
 }

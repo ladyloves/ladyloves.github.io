@@ -47,7 +47,7 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down">
 
     <div class="container pr-0">
 
@@ -72,18 +72,6 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li>
-
-                <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
                 </li>
 
@@ -110,29 +98,38 @@ ga('send', 'pageview');
 
 <div class="site-content">
 
-<div class="container">
-    {% if page.url == "/" %}
-<!-- Hero Carousel
-================================================== -->
-
-<div class="lady-loves-banner">
-    <div class="lady-loves-banner-each lady-loves-banner-1">
-        <!-- <img src="../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg" alt=""> -->
+{% if page.url == "/" %}
+    <!-- Hero Carousel
+    ================================================== -->
+    <div class="lady-loves-banner">
+        <div class="lady-loves-banner-each lady-loves-banner-1">
+            <div class="lady-loves-banner-each-content">
+                <p class="lady-loves-banner-text">Discover Trending Women's Products You’ll Love.</p>
+                <a href="#" class="lady-loves-banner-btn">Explore Trends</a>
+            </div>
+        </div>
+        <div class="lady-loves-banner-each lady-loves-banner-2">
+            <div class="lady-loves-banner-each-content">
+                <p class="lady-loves-banner-text">In-Depth Reviews of Must-Have Women's Products.</p>
+                <a href="#" class="lady-loves-banner-btn">See Recommendations</a>
+            </div>
+        </div>
+        <div class="lady-loves-banner-each lady-loves-banner-3">
+            <div class="lady-loves-banner-each-content">
+                <p class="lady-loves-banner-text">Life Hacks for Making Motherhood Easier.</p>
+                <a href="#" class="lady-loves-banner-btn">Get Inspired</a>
+            </div>
+        </div>
+        <div class="lady-loves-banner-each lady-loves-banner-4">
+            <div class="lady-loves-banner-each-content">
+                <p class="lady-loves-banner-text">Explore the Best Wearable Breast Pumps for Modern Moms.</p>
+                <a href="#" class="lady-loves-banner-btn">Read Reviews</a>
+            </div>
+        </div>
     </div>
-    <div class="lady-loves-banner-each lady-loves-banner-2">
-        <!-- <img src="../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg" alt=""> -->
-
-    </div>
-    <div class="lady-loves-banner-each lady-loves-banner-3">
-        <!-- <img src="../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg" alt=""> -->
-
-    </div>
-    <div class="lady-loves-banner-each lady-loves-banner-4">
-        <!-- <img src="../assets/images/hero-banner/display-of-latest-gadgets-for-moms.jpeg" alt=""> -->
-
-    </div>
-</div>
 {% endif %}
+<div class="container">
+
 <!-- Site Title
 ================================================== -->
 <!-- <div class="mainheading">
@@ -230,4 +227,7 @@ ga('send', 'pageview');
 {% endif %}
 
 </body>
+{% if page.url == "/" %}
+<script src="../assets/js/script.js"></script>
+{% endif %}
 </html>

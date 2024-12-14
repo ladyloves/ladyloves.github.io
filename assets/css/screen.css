@@ -39,7 +39,7 @@ pre {
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    background: transparent;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
 }
@@ -50,7 +50,7 @@ pre {
 
 .site-content {
     min-height: 60vh;
-    margin-top: 57px;
+    /* margin-top: 57px; */
     transition: all 0.4s;
 }
 
@@ -102,7 +102,12 @@ section.recent-posts {
         padding-left: 0.8rem;
     }
 }
-
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
 .listfeaturedtag {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
@@ -299,7 +304,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 60px;
     margin-right: 5px;
 }
 
