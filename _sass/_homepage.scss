@@ -73,3 +73,16 @@
 .lady-loves-subscribe-header:hover {
     background-color: #42b281;
 }
+.product-amazon-button-container {
+    text-align: center;
+    .product-amazon-button {
+        // border-radius: 20px;
+        // border: 1px solid #777;
+        // background-color: #ffd812;
+        img {
+            width: 80px !important;
+            margin-bottom: -7px;
+        }
+    }
+}
+
