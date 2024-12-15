@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Top 10 Wearable Breast Pumps for Busy Moms in 2025"
-author: john
 categories: [ Wearable Tech ]
 tags: [Wearable Breast Pumps]
 image: assets/images/post-images/Featured_Top-10-Wearable-Breast-Pumps-for-Busy-Moms-in-2025.jpeg
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Explore the top 10 wearable breast pumps of 2024! Hands-free, discreet, and perfect for busy moms. Find the best fit for your lifestyle today!"
 featured: true
 hidden: true
 rating: 4.5
