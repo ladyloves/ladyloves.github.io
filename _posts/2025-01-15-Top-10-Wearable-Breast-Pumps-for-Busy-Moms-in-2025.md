@@ -8,6 +8,7 @@ description: "Explore the top 10 wearable breast pumps of 2025! Hands-free, disc
 featured: true
 hidden: true
 rating: 4.5
+author: sushil
 date: '2025-01-15'
 permalink: /posts/:title.html
 ---

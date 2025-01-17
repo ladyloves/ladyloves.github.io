@@ -64,11 +64,16 @@ comments: true
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+              <div class="bio text-center">
+                <img src="images/author-sushil.webp" alt="Author Sushil Mohan Shopify Developer" class="img-fluid">
+                <div class="bio-body">
+                  <h2>Sushil Mohan</h2>
+                  <p>
+                    With over 4 years of experience as a Shopify developer, I am specialized in building robust, user-friendly online stores. Their expertise spans theme customization, app integration, and ecommerce optimization, making them a trusted resource for Shopify-related insights and strategies.
+                  </p>
+                  <p><a href="https://www.linkedin.com/in/sushil-m-37694b116/" class="btn btn-primary btn-sm rounded author-linkedin">Linked <span class="fa fa-linkedin"></span> </a></p>
+                </div>
+              </div>
 
 </div>
 </div>
