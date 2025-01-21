@@ -7,7 +7,6 @@
 <meta name="msvalidate.01" content="D949E2F107551F710F1D7CCF92BE9E7E" />
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
-<title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
 
@@ -172,7 +171,7 @@ ga('send', 'pageview');
         {{ site.description }}
     </p>
 </div> -->
-
+<h1 style="display: none;">{{ post.title | xml_escape }}</h1>
 <!-- Content
 ================================================== -->
 <div class="main-content">
