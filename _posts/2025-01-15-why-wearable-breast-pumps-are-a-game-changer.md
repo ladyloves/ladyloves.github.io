@@ -2,8 +2,8 @@
 layout: post
 title: "Why Wearable Breast Pumps Are a Game-Changer"
 description: "Discover how wearable breast pumps are revolutionizing breastfeeding for modern moms. Learn about their benefits, features, and top options."
-categories: [Parenting, Motherhood, Tech]
-tags: [Wearable Breast Pumps, Breastfeeding, Parenting]
+categories: [Wearable Tech]
+tags: [Wearable Breast Pumps]
 image: assets/images/post-images/Featured_why-wearable-breast-pumps-are-a-game-changer.webp
 featured: true
 hidden: true
